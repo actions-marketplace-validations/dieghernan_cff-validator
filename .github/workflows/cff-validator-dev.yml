@@ -25,12 +25,12 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Validate ./examples/key-complete/CITATION.cff
-        uses: dieghernan/cff-validator@dev
+        uses: dieghernan/cff-validator@main
         with:
           citation-path: "./examples/key-complete/CITATION.cff"
 
       - name: Validate ./examples/key-error/CITATION.cff
-        uses: dieghernan/cff-validator@dev
+        uses: dieghernan/cff-validator@main
         with:
           citation-path: "./examples/key-error/CITATION.cff"
 
